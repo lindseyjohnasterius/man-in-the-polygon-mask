@@ -1,0 +1,162 @@
+
+/*
+
+  *** begin ascii art ***
+
+            CCCCCCCCCCCCC   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS
+         CCC::::::::::::C SS:::::::::::::::S SS:::::::::::::::S
+       CC:::::::::::::::CS:::::SSSSSS::::::SS:::::SSSSSS::::::S
+      C:::::CCCCCCCC::::CS:::::S     SSSSSSSS:::::S     SSSSSSS
+     C:::::C       CCCCCCS:::::S            S:::::S
+    C:::::C              S:::::S            S:::::S
+    C:::::C               S::::SSSS          S::::SSSS
+    C:::::C                SS::::::SSSSS      SS::::::SSSSS
+    C:::::C                  SSS::::::::SS      SSS::::::::SS
+    C:::::C                     SSSSSS::::S        SSSSSS::::S
+    C:::::C                          S:::::S            S:::::S
+     C:::::C       CCCCCC            S:::::S            S:::::S
+      C:::::CCCCCCCC::::CSSSSSSS     S:::::SSSSSSSS     S:::::S
+       CC:::::::::::::::CS::::::SSSSSS:::::SS::::::SSSSSS:::::S
+         CCC::::::::::::CS:::::::::::::::SS S:::::::::::::::SS
+            CCCCCCCCCCCCC SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS
+
+  *** end ascii art ***
+                            The CSS file
+
+  A lot of people get into months long javascript framework boondoggles 
+  for reasons they could have solved in 5 minutes fiddling with the humble CSS file.
+
+  The penultimate best CSS framework is the one where every design meeting you, 
+  the HTML/CSS Engineer (paid more than any of the Javascript Jocks) are rolling 
+  your eyes at the cravat wearing designer and snottily holding up a sticky note 
+  that says: "What about the standards, bro?"
+
+  But the absolute best HTML/CSS Framework is the one where the designers are 
+  writing the CSS and HTML. Drop photoshop, drop whatever flavor of the week 
+  closed-source Mac only garbage you've been sending me that is just bad SVG 
+  and write some CSS. Design is about application of material facts 
+  (and yes, HTML/CSS is a material fact on screen in browser), so start applying 
+  the materials. HTML breaks a certain way -- it has its own affordances as 
+  well as its own problems. I think it's beautiful, and I think once designers
+  start using HTML and CSS themselves they'll understand why.  
+
+  A lot of people think CSS folk aren't Engineers, or that Designers can't 
+  become top tier engineers; but I know better. A lot of you designers and 
+  CSS pushers are already better engineers than the Javascript Jocks around you.
+  I know. I see you. Here's where you wow them.
+
+  LNSY
+
+*/
+
+
+@import "https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css";
+@import "https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css";
+
+geo-map {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  overflow: hidden;
+
+}
+
+map-container {
+	display: block;
+  width:  100%;
+  height:  100%;
+  position:  absolute;
+  left: 0px;
+  top:  0px;
+}
+
+map-location, map-graph{
+	display:  none;
+}
+
+map-key {
+  position: absolute;
+  right: 2em;
+  bottom: 2em;
+  z-index: 1000;
+
+  transition: opacity 0.25s ease-in;
+  opacity: 0;
+}
+
+.far map-key {
+  opacity: 1;
+}
+
+map-information-box {
+  position:  absolute;
+  z-index: 2;
+  margin: 0.5em 0.5em;
+  left: 0em;
+  top:  0em;
+  max-width:  30em;
+  max-height: calc(100% - 5em);
+  line-height: 1.25em;
+  height: auto;
+  overflow-x:  hidden;
+  overflow-y: scroll;
+  padding: 1em;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  border: var(--middle-tone-color) 1px solid;
+}
+
+map-information-box::-webkit-scrollbar {
+  display: none;
+}
+
+
+map-information-box a {
+  color: white;
+}
+
+map-information-box h1 {
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+
+map-information-box img, map-information-box video {
+  width: 100%;
+  height: auto;
+}
+
+map-information-box map-marker {
+  display:  none;
+}
+
+ @media screen and (orientation:portrait) {
+  map-information-box {
+    max-width: calc(100% - 2em);
+  }
+ }
+ 
+
+.close-button {
+  position: absolute;
+  z-index: 10;
+  right: 0px;
+  top: 0px;
+  margin: 0.5em 0.5em;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.close-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.close-button:active {
+  background-color: white;
+  color: black;
+}
