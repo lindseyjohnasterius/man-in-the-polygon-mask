@@ -1,0 +1,19 @@
+{
+  "name": "man-in-the-polygon-mask",
+  "version": "1.0.0",
+  "description": "Sci-Fi Story",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindseyjohnasterius/man-in-the-polygon-mask.git"
+  },
+  "author": "LNSY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindseyjohnasterius/man-in-the-polygon-mask/issues"
+  },
+  "homepage": "https://github.com/lindseyjohnasterius/man-in-the-polygon-mask#readme"
+}
