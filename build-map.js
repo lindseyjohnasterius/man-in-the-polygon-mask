@@ -15,10 +15,15 @@ while(dirs.length > 0){
 			throw err
 		}
 		files.forEach(async file => {
-			if(file.slice(-4) !== 'stub') return
+			if(file.slice(-4) !== 'md') return
 			const yaml = matter.read(`${__dirname}/${dir}/${file}`);
 			const data = yaml.data
 			const html_code = parser.parse(yaml.content).innerHTML;
+			let coordinates = []
+			if(data.coordinates){
+
+			}
+
 			stanzas += `
       <map-location
         latitude=${data.coordinates[1]}
@@ -43,7 +48,7 @@ while(dirs.length > 0){
 
 
 
-		fs.writeFile(`${__dirname}/${dir}/index.html`, stanzas, function(err){
+		fs.writeFile(`${__dirname}/${dir}/stubs.html`, stubs, function(err){
 			if(err){
 				console.log(err)
 			}
