@@ -3,11 +3,11 @@ const matter = require('gray-matter')
 const parser = require('@deskeen/markdown')
 
 const dirs = ["stubs"]
+let stubs = ''
 
 
 while(dirs.length > 0){
 
-	let stubs = ''
 
 	const dir = dirs.shift()
 	fs.readdir(dir, async (err, files) => {
@@ -15,19 +15,17 @@ while(dirs.length > 0){
 			throw err
 		}
 		files.forEach(async file => {
-			if(file.slice(-4) !== 'md') return
+			if(file.slice(-2) !== 'md') return
+
 			const yaml = matter.read(`${__dirname}/${dir}/${file}`);
 			const data = yaml.data
 			const html_code = parser.parse(yaml.content).innerHTML;
-			let coordinates = []
-			if(data.coordinates){
+			
 
-			}
-
-			stanzas += `
+			stubs += `
       <map-location
-        latitude=${data.coordinates[1]}
-        longitude=${data.coordinates[0]}
+        latitude=${data.latitude}
+        longitude=${data.longitude}
         zoom=18
         bearing=15
         pitch=30
@@ -36,72 +34,27 @@ while(dirs.length > 0){
         <map-marker>
           <img src=${data.img} />
         </map-marker>
-        <h1>${data.title}</h1>
-        <h2>${data.year}</h2>
         <article class="content">
           ${html_code}
         </article>
 
       </map-location>
 			`
+
+
 		})//end files
 
+		console.log(stubs)
 
-
-		fs.writeFile(`${__dirname}/${dir}/stubs.html`, stubs, function(err){
+		fs.writeFile(`${__dirname}/stubs.html`, stubs, function(err){
 			if(err){
 				console.log(err)
 			}
 		})
-
-
-		files.forEach(async file => {
-			if(file.slice(-4) !== 'note') return
-			const yaml = matter.read(`${__dirname}/${dir}/${file}`);
-			const data = yaml.data
-			let html_code = ''
-
-			if(data.img){
-				html_code += `<img src="${data.img}" />`
-			}
-
-			if(data.wikipedia){
-				html_code += `<wikipedia-entry src="${data.wikipedia}"></wikipedia-entry>`
-			}
-
-
-			html_code += parser.parse(yaml.content).innerHTML;
-
-
-
-			research += `
-				<article>
-					${html_code}
-				</article>
-			`
-		})
-
-		fs.writeFile(`${__dirname}/${dir}/notes.html`, research, function(err){
-			if(err){
-				console.log(err)
-			}
-		})
-
-
 
 	}) // end fs.readdir
 
 
-
-	labyrinths += `
-		<li><a href="/${dir}/index.html">${dir}</a></li>
-
-	`
 }
 
-fs.writeFile(`${__dirname}/labyrinths.html`, labyrinths, function(err){
-	if(err){
-		console.log(err)
-	}
-})
 
