@@ -5,6 +5,15 @@ const parser = require('@deskeen/markdown')
 const dirs = ["stubs"]
 let stubs = ''
 
+function getNewID() {
+  return 'dtrm-xxxxxxxxxxxxxxxx-'
+    .replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16)
+  }) + Date.now()
+}
+
+
 
 while(dirs.length > 0){
 
@@ -21,19 +30,28 @@ while(dirs.length > 0){
 			const data = yaml.data
 			const html_code = parser.parse(yaml.content).innerHTML;
 			
+			if(!data.id){
+				data.id = getNewID()
+			}
+			
+			if(!data.title){
+				data.title = data.id
+			}
+
 
 			stubs += `
       <map-location
         latitude=${data.latitude}
         longitude=${data.longitude}
-        zoom=18
-        bearing=15
-        pitch=30
+        zoom=${data.zoom}
+        bearing=${data.bearing}
+        pitch=${data.pitch}
         id=${data.id}
       >
         <map-marker>
           <img src=${data.img} />
         </map-marker>
+        <h1>${data.title}</h1>
         <article class="content">
           ${html_code}
         </article>
