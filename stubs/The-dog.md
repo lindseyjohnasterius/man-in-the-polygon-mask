@@ -9,7 +9,7 @@ summary: "a vision"
 title: "The dog"
 
 ---
-#The Dog
+# The Dog
 
 Riding the 950 north to downtown, I see a dog loping through the liminal concrete space that is north of the interchange, full of containers of rubble. Her nipples swollen, she trots gingerly. She is perhaps a pitbull, though my memory clouds. Her nipples are swollen, her belly loose like a dog who just gave birth.
 

@@ -15,5 +15,7 @@ type:
 
 ---
 
+[[Pink-Slime-Conciousness]]
+
 
 An aesthetic movement that built on man's post-carnivorous "Industrial Agrarian" state. Fleshyness, designer infections, ornate masturbatory sex organs. Most famous progenitors of this are the MeatMind Collective, based in Venice, CA

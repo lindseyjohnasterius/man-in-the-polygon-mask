@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "1a7b668a1df0e1e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "487c13befc2a2508",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "f6b3dbbe-a561-4123-915e-4c9681a1afae.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "98e995399692afef",
+    "type": "split",
+    "children": [
+      {
+        "id": "10618d960fa0e96f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f031564a9b9b96d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "85a015f333ff27ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1557f2aeedbdd3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e640cba80df35b36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "effd2c09af9a822f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "f6b3dbbe-a561-4123-915e-4c9681a1afae.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "487c13befc2a2508",
+  "lastOpenFiles": [
+    "f6b3dbbe-a561-4123-915e-4c9681a1afae.md",
+    "dtrm-fad31b0f89eb1a08-1648752777678.md",
+    "dtrm-d11b5c3c8363cd04-1648752777678.md",
+    "dtrm-b41a35713b0be109-1648752777679.md",
+    "dtrm-abac31dd1a15a361-1648752777678.md",
+    "dtrm-180217da75ef536c-1648752777679.md",
+    "dtrm-454df508386eb870-1648752777680.md",
+    "dtrm-3c90e35277dd22e8-1648752777681.md",
+    "And-then-we-saw-the-daughter-of-the-minotaur.md",
+    "Assymetrical-information-warfare-bot-swarms-and-post-Westphalian-media-strategies.md"
+  ]
+}
