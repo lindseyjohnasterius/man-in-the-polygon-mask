@@ -104,7 +104,7 @@ export default class SlideShowControls {
 
     let speed = location.getAttribute('speed')
     if(speed === null){
-      speed = 0.1
+      speed = 0.5
     } else {
       speed = parseFloat(speed)
     }
