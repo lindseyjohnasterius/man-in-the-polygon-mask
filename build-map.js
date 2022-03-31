@@ -39,6 +39,16 @@ while(dirs.length > 0){
 			}
 
 
+			// Every location is random 
+			data.latitude = 34.05 + (Math.random() - 0.5)
+			data.longitude = -118.25 + (Math.random() - 0.5)
+			data.zoom = Math.random() * 20
+			data.bearing = Math.random() * 360
+			data.pitch = Math.random() * 360
+			data.img = 
+		
+
+
 			stubs += `
       <map-location
         latitude=${data.latitude}
@@ -48,9 +58,6 @@ while(dirs.length > 0){
         pitch=${data.pitch}
         id=${data.id}
       >
-        <map-marker>
-          <img src=${data.img} />
-        </map-marker>
         <h1>${data.title}</h1>
         <article class="content">
           ${html_code}
