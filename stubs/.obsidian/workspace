@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "f6b3dbbe-a561-4123-915e-4c9681a1afae.md",
+            "file": "00000-introduction.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "f6b3dbbe-a561-4123-915e-4c9681a1afae.md",
+                "file": "00000-introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "487c13befc2a2508",
   "lastOpenFiles": [
-    "f6b3dbbe-a561-4123-915e-4c9681a1afae.md",
-    "dtrm-fad31b0f89eb1a08-1648752777678.md",
+    "00000-introduction.md",
+    "00001-i-introduce-myself.md",
     "dtrm-d11b5c3c8363cd04-1648752777678.md",
-    "dtrm-b41a35713b0be109-1648752777679.md",
-    "dtrm-abac31dd1a15a361-1648752777678.md",
-    "dtrm-180217da75ef536c-1648752777679.md",
-    "dtrm-454df508386eb870-1648752777680.md",
-    "dtrm-3c90e35277dd22e8-1648752777681.md",
-    "And-then-we-saw-the-daughter-of-the-minotaur.md",
-    "Assymetrical-information-warfare-bot-swarms-and-post-Westphalian-media-strategies.md"
+    "Post-Surkovian-Media-Strategy.md",
+    "The-Slow-Shadow.md",
+    "The-Quiet-Summer.md",
+    "Paper-Work-Conciousness.md",
+    "Labyrinths.md",
+    "Post-Capitalist-Realism.md",
+    "post-ecology.md"
   ]
 }
