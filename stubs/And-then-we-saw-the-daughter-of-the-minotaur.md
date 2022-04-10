@@ -16,3 +16,10 @@ year: 1953
 
 ---
 ## And then we saw the daughter of the minotaur
+
+
+A Painting by Leonora Carrington
+
+https://www.youtube.com/watch?v=BNQg1NeWfGI
+
+
