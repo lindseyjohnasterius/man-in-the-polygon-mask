@@ -55,18 +55,37 @@
 <body>
 
   <div class="bg-image"></div>
-  <geo-map accesstoken=pk.eyJ1IjoibGluZHNleW15c3NlIiwiYSI6ImNqOGNlYjMzbDA5am8zMmxid2oyc3hrc2cifQ.hK6NXKEl7bK7va2pRtY0Yw styleurl=mapbox://styles/lindseymysse/ckpkn1d2p345j17lm7c2m8oax id=geo_map latitude="33.9447848697952" longitude="-118.30407779962643" zoom=9.377606751598156 bearing=-19.200000000000028 pitch=54.999999999999986
+  <geo-map accesstoken=pk.eyJ1IjoibGluZHNleW15c3NlIiwiYSI6ImNqOGNlYjMzbDA5am8zMmxid2oyc3hrc2cifQ.hK6NXKEl7bK7va2pRtY0Yw styleurl=mapbox://styles/lindseymysse/ckn0nxtw50yqn17mxij8psa5u id=geo_map latitude="33.9447848697952" longitude="-118.30407779962643" zoom=9.377606751598156 bearing=-19.200000000000028 pitch=54.999999999999986
  slideshow>
 
 
  <html-partial src="/stubs.html"></html-partial>
   </geo-map>
 
+  <textarea id="map_data" style="position:fixed;z-index:9001;left:0px;top:0px;width:30em;height:30em;"></textarea>
+
   <script type="module">
     import { ready } from './src/helpers.js'
 
     ready( () => {
-      geo_map.dispatchEvent(new CustomEvent('SHOW HOME'))
+
+      geo_map.addEventListener('INITIALIZED', function(e){
+        console.log(e, geo_map)
+        geo_map.dispatchEvent(new CustomEvent('SHOW HOME'))
+        geo_map.addEventListener('MOVEEND', function(e){
+          const l = e.detail
+          map_data.innerText = 
+`---\n
+latitude: ${l.latitude}\n
+longitude: ${l.longitude}\n
+zoom: ${l.zoom}\n
+pitch: ${l.pitch}\n
+bearing: ${l.bearing}\n
+---\n
+stub here
+`
+        })
+      })
 
   
     })

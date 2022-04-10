@@ -1,6 +1,8 @@
 const fs = require('fs')
 const matter = require('gray-matter')
 const parser = require('@deskeen/markdown')
+const utf8 = require('utf8');
+
 
 const dirs = ["stubs"]
 let stubs = ''
@@ -28,7 +30,7 @@ while(dirs.length > 0){
 
 			const yaml = matter.read(`${__dirname}/${dir}/${file}`);
 			const data = yaml.data
-			const html_code = parser.parse(yaml.content).innerHTML;
+			const html_code = parser.parse(utf8.encode(yaml.content)).innerHTML;
 			
 			if(!data.id){
 				data.id = getNewID()

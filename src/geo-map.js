@@ -238,6 +238,7 @@ export class GeoMap extends HTMLElement {
         bearing: this.bearing, 
         pitch: this.pitch,
       }
+      this.dispatchEvent(new CustomEvent('MOVEEND', {detail:new_pos}))
 
 
       debounce(setURLValues(new_pos), 10000)
