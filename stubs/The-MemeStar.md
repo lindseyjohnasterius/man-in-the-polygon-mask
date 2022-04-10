@@ -30,7 +30,7 @@ I wrangle bots, schlepp data, generally turn the manure of digital noise into th
 
 I prefered to keep my work for the anonymous corporations that were my normal bread and butter-- let the spokesperson take the credit, and me taking the money. But, even though I don't NEED lots of money, they were offering me stupid amounts of it. "A new type of team, *****," my friend J____, who had gave them their number had said. "You'll get to design the architecture, choose the neural net cowboys. You're going to get to build the most massive hype and counter-hype machine anyone has ever built"
 
-I'm just a mercenary, and you can only write the same hostile-Actuary algorithms so many times before it all runs together. I needed something new. And, a bunch of fucking fucking money might do the trick.
+I'm just a mercenary, and you can only write the same hostile-Actuary algorithms so many times before it all runs together. I needed something new. And, a bunch of money might do the trick.
 
 ## Footnotes
 
