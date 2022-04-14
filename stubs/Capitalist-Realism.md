@@ -14,4 +14,5 @@ title: "Capitalist Realism"
 
 ---
 ## Capitalist Realism
-Capitalist Realism a wry response to so called Socialist Realism was a style innovated by
+Capitalist Realism a wry response to so called Socialist Realism was a style innovated by [[Neo Rausch]] and other artists based around [[Lipzieg]] [[Germany]]
+

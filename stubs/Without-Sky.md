@@ -17,6 +17,12 @@ summary: "â€œWithout Skyâ€ is a science fiction short story, first publ
 title: "Without Sky"
 
 ---
+
+Natan Dubovitsky
+# Without Sky
+
+Translation copyright Â© 2014 by Bill Bowler
+
 There was no sky over our village. Thatâ€™s why we went to the city to watch the moon and birds, on the other side of the river. The people in the city were not thrilled to have us, but they did not try to stop us. On one of the hills, where the brick church stood, they even built an observation platform. Since for some reason they considered us drinkers, in addition to benches and a pay telescope, they built a small tavern by the observation deck, and a police post.
 
 I could understand the city people. They had suffered greatly from the rage and envy of newcomers. And though it was insulting that they considered us - their closest neighbors, almost city people ourselves - intruders, still, we could understand them. And after all, they understood us. They didnâ€™t drive us away. No matter what they wrote on their websites, they didnâ€™t drive us away.

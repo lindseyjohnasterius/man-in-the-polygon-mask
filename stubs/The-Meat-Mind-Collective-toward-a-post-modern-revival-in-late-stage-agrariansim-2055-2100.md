@@ -14,6 +14,6 @@ labels:
   - "fictional"
 summary: "The Meat Mind Collective most famous for the Venice Beach Disaster, were a Los Angeles Based art collective who used mans new relationship to meat as a driving mechanic of their performance, augmented reality and terrariums practice"
 title: "The Meat Mind Collective - toward a post-modern rivival in late-stage agrariansim (2055-2100)"
-
 ---
 
+The Meat Mind Collective most famous for the Venice Beach Disaster, were a Los Angeles Based art collective who used mans new relationship to meat as a driving mechanic of their performance, augmented reality and terrariums practice
