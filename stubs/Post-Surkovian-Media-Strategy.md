@@ -23,7 +23,7 @@ summary: "In post-modern Russia, and now in post-modern united states"
 title: "Post-Surkovian Media Strategy"
 
 ---
-"We founded the Society and prepared a revolt of the simple, two-dimensionals against the complex and sly, against those who do not answer â€œyesâ€ or â€œno,â€ who do not say â€œwhiteâ€ or â€œblack,â€ who know some third word, many, many third words, empty, deceptive, confusing the way, obscuring the truth. In these shadows and spider webs, in these false complexities, hide and multiply all the villainies of the world. They are the House of Satan. Thatâ€™s where they make bombs and money, saying: â€œHereâ€™s money for the good of the honest; here are bombs for the defense of love.â€
+"We founded the Society and prepared a revolt of the simple, two-dimensionals against the complex and sly, against those who do not answer yes or no who do not say white or black, who know some third word, many, many third words, empty, deceptive, confusing the way, obscuring the truth. In these shadows and spider webs, in these false complexities, hide and multiply all the villainies of the world. They are the House of Satan. That's where they make bombs and money, saying: Here's money for the good of the honest; here are bombs for the defense of love.
 
 We will come tomorrow. We will conquer or perish. There is no third way."
 
@@ -48,4 +48,4 @@ But if we do look at Surkov from the Dubovitsky angle we can get a sense of his 
 
 The simple-hearted commanders of the past strove for victory. Now they did not act so stupidly. That is, some, of course, still clung to the old habits and tried to exhume from the archives old slogans of the type: victory will be ours. It worked in some places, but basically, war was now understood as a process, more exactly, part of a process, its acute phase, but maybe not the most important.
 
-Some peoples joined the war specifically to be defeated. They were inspired by the flowering of Germany and France after being routed in the second World War. It turned out that to achieve such a defeat was no simpler than achieving victory. Determination, sacrifice, and the extraordinary exertion of all forces were required, and, in addition, flexibility, cold-bloodedness, and the ability to profitably administer oneâ€™s own cowardice and dullness."
+Some peoples joined the war specifically to be defeated. They were inspired by the flowering of Germany and France after being routed in the second World War. It turned out that to achieve such a defeat was no simpler than achieving victory. Determination, sacrifice, and the extraordinary exertion of all forces were required, and, in addition, flexibility, cold-bloodedness, and the ability to profitably administer one's own cowardice and dullness."
